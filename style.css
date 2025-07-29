@@ -2743,11 +2743,20 @@ section {
     .text-block h3 {
         font-size: 1.3rem !important;
         margin-bottom: 12px !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
     }
     
     .text-block p {
         font-size: 0.95rem !important;
-        line-height: 1.6 !important;
+        line-height: 1.7 !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        hyphens: auto !important;
+        text-align: justify !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
     }
     
     .achievement-cards {
@@ -2907,6 +2916,17 @@ section {
     .skill-category {
         padding: 20px 15px !important;
     }
+    
+    /* About section text improvements */
+    .text-block p {
+        font-size: 0.9rem !important;
+        line-height: 1.6 !important;
+        text-align: left !important;
+    }
+    
+    .text-block h3 {
+        font-size: 1.2rem !important;
+    }
 }
 
 /* Very small devices */
@@ -2931,5 +2951,17 @@ section {
     
     .section-title {
         font-size: 1.5rem !important;
+    }
+    
+    /* About section text for very small screens */
+    .text-block p {
+        font-size: 0.85rem !important;
+        line-height: 1.5 !important;
+        text-align: left !important;
+    }
+    
+    .text-block h3 {
+        font-size: 1.1rem !important;
+        margin-bottom: 10px !important;
     }
 }
