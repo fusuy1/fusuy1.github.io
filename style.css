@@ -1147,11 +1147,14 @@ section {
     }
     
     .hero-description {
-        font-size: 1.05rem;
-        margin-bottom: 30px;
-        line-height: 1.7;
-        max-width: 100%;
-    }
+    font-size: 1.05rem;
+    margin-bottom: 30px;
+    line-height: 1.7;
+    max-width: 100%;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
     
     .hero-buttons {
         display: flex;
