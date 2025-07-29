@@ -1717,6 +1717,118 @@ section {
         box-sizing: border-box;
     }
     
+    /* Section spacing adjustments for mobile */
+    section {
+        padding: 60px 0;
+    }
+    
+    .container {
+        padding: 0 15px;
+        max-width: 100%;
+    }
+    
+    /* Section headers */
+    .section-header {
+        margin-bottom: 40px;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    
+    /* About section mobile fixes */
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        max-width: 100%;
+    }
+    
+    .about-text {
+        max-width: 100%;
+    }
+    
+    .text-block {
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+    
+    .text-block h3 {
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+    
+    .text-block p {
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+    
+    .achievement-cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        max-width: 100%;
+    }
+    
+    .achievement-card {
+        padding: 20px;
+        gap: 15px;
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .achievement-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+        flex-shrink: 0;
+    }
+    
+    .achievement-info {
+        flex: 1;
+        min-width: 0;
+    }
+    
+    .achievement-info h4 {
+        font-size: 1rem;
+        margin-bottom: 3px;
+    }
+    
+    .achievement-info p {
+        font-size: 0.85rem;
+    }
+    
+    /* Stats container mobile fixes */
+    .about-visual {
+        max-width: 100%;
+    }
+    
+    .stats-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        max-width: 100%;
+    }
+    
+    .stat-item {
+        padding: 25px 20px;
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .stat-number {
+        font-size: 2.2rem;
+        margin-bottom: 8px;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem;
+    }
+    
     /* Navigation fixes */
     .navbar {
         background: rgba(255, 255, 255, 0.95);
@@ -1727,6 +1839,84 @@ section {
     .nav-container {
         padding: 0 15px;
         max-width: 100%;
+    }
+    
+    /* Skills section mobile fixes */
+    .skills {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .skills .container {
+        padding: 0 15px;
+        max-width: 100%;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .skill-category {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 25px 20px;
+        box-sizing: border-box;
+    }
+    
+    .category-title {
+        font-size: 1.2rem;
+        gap: 10px;
+        margin-bottom: 20px;
+        word-wrap: break-word;
+        max-width: 100%;
+    }
+    
+    .skills-list {
+        width: 100%;
+        max-width: 100%;
+        gap: 20px;
+    }
+    
+    .skill-item {
+        width: 100%;
+        max-width: 100%;
+        gap: 8px;
+    }
+    
+    .skill-info {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .skill-name {
+        font-size: 0.95rem;
+        flex: 1;
+        min-width: 0;
+    }
+    
+    .skill-level {
+        font-size: 0.85rem;
+        flex-shrink: 0;
+        margin-left: 10px;
+    }
+    
+    .skill-bar {
+        width: 100%;
+        max-width: 100%;
+        height: 6px;
+    }
+    
+    .skill-progress {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
     }
     
     /* Hero section mobile optimizations */
@@ -1891,6 +2081,137 @@ section {
 
 /* Extra small mobile devices */
 @media screen and (max-width: 480px) {
+    /* Container and section adjustments */
+    .container {
+        padding: 0 12px;
+        max-width: 100%;
+    }
+    
+    section {
+        padding: 50px 0;
+    }
+    
+    /* Section headers for small screens */
+    .section-title {
+        font-size: 1.7rem;
+        line-height: 1.2;
+        margin-bottom: 12px;
+    }
+    
+    .section-subtitle {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    
+    /* About section optimizations */
+    .about-content {
+        gap: 30px;
+    }
+    
+    .text-block {
+        margin-bottom: 25px;
+    }
+    
+    .text-block h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    .text-block p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    
+    .achievement-cards {
+        gap: 12px;
+    }
+    
+    .achievement-card {
+        padding: 18px 15px;
+        gap: 12px;
+    }
+    
+    .achievement-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1.1rem;
+    }
+    
+    .achievement-info h4 {
+        font-size: 0.95rem;
+        margin-bottom: 2px;
+    }
+    
+    .achievement-info p {
+        font-size: 0.8rem;
+    }
+    
+    /* Stats container for small screens */
+    .stats-container {
+        gap: 15px;
+    }
+    
+    .stat-item {
+        padding: 20px 15px;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+        margin-bottom: 6px;
+    }
+    
+    .stat-label {
+        font-size: 0.85rem;
+    }
+    
+    /* Skills section for small screens */
+    .skills .container {
+        padding: 0 12px;
+    }
+    
+    .skills-grid {
+        gap: 15px;
+    }
+    
+    .skill-category {
+        padding: 20px 15px;
+    }
+    
+    .category-title {
+        font-size: 1.1rem;
+        gap: 8px;
+        margin-bottom: 18px;
+    }
+    
+    .category-title i {
+        font-size: 1rem;
+    }
+    
+    .skills-list {
+        gap: 18px;
+    }
+    
+    .skill-item {
+        gap: 6px;
+    }
+    
+    .skill-info {
+        margin-bottom: 6px;
+    }
+    
+    .skill-name {
+        font-size: 0.9rem;
+    }
+    
+    .skill-level {
+        font-size: 0.8rem;
+    }
+    
+    .skill-bar {
+        height: 5px;
+    }
+    
+    /* Hero section for small screens */
     .hero {
         padding: 70px 0 30px;
     }
@@ -1947,9 +2268,128 @@ section {
 @media screen and (max-width: 375px) {
     .hero-container,
     .container {
-        padding: 0 12px;
+        padding: 0 10px;
     }
     
+    section {
+        padding: 45px 0;
+    }
+    
+    /* Section headers for very small screens */
+    .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .section-subtitle {
+        font-size: 0.85rem;
+    }
+    
+    /* About section for very small screens */
+    .about-content {
+        gap: 25px;
+    }
+    
+    .text-block {
+        margin-bottom: 20px;
+    }
+    
+    .text-block h3 {
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+    }
+    
+    .text-block p {
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+    
+    .achievement-cards {
+        gap: 10px;
+    }
+    
+    .achievement-card {
+        padding: 15px 12px;
+        gap: 10px;
+    }
+    
+    .achievement-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    .achievement-info h4 {
+        font-size: 0.9rem;
+        margin-bottom: 1px;
+    }
+    
+    .achievement-info p {
+        font-size: 0.75rem;
+    }
+    
+    /* Stats for very small screens */
+    .stats-container {
+        gap: 12px;
+    }
+    
+    .stat-item {
+        padding: 18px 12px;
+    }
+    
+    .stat-number {
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+    }
+    
+    .stat-label {
+        font-size: 0.8rem;
+    }
+    
+    /* Skills section for very small screens */
+    .skills .container {
+        padding: 0 10px;
+    }
+    
+    .skills-grid {
+        gap: 12px;
+    }
+    
+    .skill-category {
+        padding: 18px 12px;
+    }
+    
+    .category-title {
+        font-size: 1rem;
+        gap: 6px;
+        margin-bottom: 15px;
+    }
+    
+    .category-title i {
+        font-size: 0.9rem;
+    }
+    
+    .skills-list {
+        gap: 15px;
+    }
+    
+    .skill-item {
+        gap: 5px;
+    }
+    
+    .skill-name {
+        font-size: 0.85rem;
+    }
+    
+    .skill-level {
+        font-size: 0.75rem;
+    }
+    
+    .skill-bar {
+        height: 4px;
+    }
+    
+    /* Hero adjustments */
     .title-main {
         font-size: 1.6rem;
     }
