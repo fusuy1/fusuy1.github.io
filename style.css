@@ -1147,14 +1147,11 @@ section {
     }
     
     .hero-description {
-    font-size: 1.05rem;
-    margin-bottom: 30px;
-    line-height: 1.7;
-    max-width: 100%;
-    white-space: normal !important;
-    word-break: break-word;
-}
-
+        font-size: 1.05rem;
+        margin-bottom: 30px;
+        line-height: 1.7;
+        max-width: 100%;
+    }
     
     .hero-buttons {
         display: flex;
@@ -2651,7 +2648,7 @@ section {
         display: flex !important;
         flex-direction: column !important;
         gap: 30px !important;
-        text-align: center !important;
+        text-align: left !important;
         align-items: center !important;
         width: 100% !important;
         max-width: 100% !important;
@@ -2661,6 +2658,12 @@ section {
         order: 2 !important;
         width: 100% !important;
         max-width: 100% !important;
+        text-align: left !important;
+    }
+    
+    .hero-title {
+        text-align: left !important;
+        margin-bottom: 25px !important;
     }
     
     .hero-visual {
@@ -2675,22 +2678,29 @@ section {
         font-size: 2.2rem !important;
         line-height: 1.2 !important;
         margin-bottom: 10px !important;
+        text-align: left !important;
+        display: block !important;
     }
     
     .title-line {
         font-size: 1rem !important;
         margin-bottom: 8px !important;
+        text-align: left !important;
+        display: block !important;
     }
     
     .title-sub {
         font-size: 1.2rem !important;
         line-height: 1.3 !important;
+        text-align: left !important;
+        display: block !important;
     }
     
     .hero-description {
         font-size: 1rem !important;
         line-height: 1.6 !important;
         margin-bottom: 30px !important;
+        text-align: left !important;
     }
     
     .hero-buttons {
